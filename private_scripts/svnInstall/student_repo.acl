@@ -1,0 +1,565 @@
+### This file is an example authorization file for svnserve.
+### Its format is identical to that of mod_authz_svn authorization
+### files.
+### As shown below each section defines authorizations for the path and
+### (optional) repository specified by the section name.
+### The authorizations follow. An authorization line can refer to:
+###  - a single user,
+###  - a group of users defined in a special [groups] section,
+###  - an alias defined in a special [aliases] section,
+###  - all authenticated users, using the '$authenticated' token,
+###  - only anonymous users, using the '$anonymous' token,
+###  - anyone, using the '*' wildcard.
+###
+### A match can be inverted by prefixing the rule with '~'. Rules can
+### grant read ('r') access, read-write ('rw') access, or no access
+### ('').
+
+[aliases]
+# joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average
+
+[groups]
+# harry_and_sally = harry,sally
+# harry_sally_and_joe = harry,sally,&joe
+
+# [/foo/bar]
+# harry = rw
+# &joe = r
+# * =
+
+# [repository:/baz/fuz]
+# @harry_and_sally = rw
+# * = r
+
+[/]
+* = 
+admin = rw
+
+[560510469:/]
+admin = r
+560510469 = rw
+* = 
+
+
+[560510611:/]
+admin = r
+560510611 = rw
+* = 
+
+
+[560510637:/]
+admin = r
+560510637 = rw
+* = 
+
+
+[560510643:/]
+admin = r
+560510643 = rw
+* = 
+
+
+[560510644:/]
+admin = r
+560510644 = rw
+* = 
+
+
+[560510662:/]
+admin = r
+560510662 = rw
+* = 
+
+
+[560510674:/]
+admin = r
+560510674 = rw
+* = 
+
+
+[570510620:/]
+admin = r
+570510620 = rw
+* = 
+
+
+[570510621:/]
+admin = r
+570510621 = rw
+* = 
+
+
+[570510623:/]
+admin = r
+570510623 = rw
+* = 
+
+
+[570510624:/]
+admin = r
+570510624 = rw
+* = 
+
+
+[570510626:/]
+admin = r
+570510626 = rw
+* = 
+
+
+[570510627:/]
+admin = r
+570510627 = rw
+* = 
+
+
+[570510628:/]
+admin = r
+570510628 = rw
+* = 
+
+
+[570510629:/]
+admin = r
+570510629 = rw
+* = 
+
+
+[570510631:/]
+admin = r
+570510631 = rw
+* = 
+
+
+[570510632:/]
+admin = r
+570510632 = rw
+* = 
+
+
+[570510633:/]
+admin = r
+570510633 = rw
+* = 
+
+
+[570510635:/]
+admin = r
+570510635 = rw
+* = 
+
+
+[570510637:/]
+admin = r
+570510637 = rw
+* = 
+
+
+[570510638:/]
+admin = r
+570510638 = rw
+* = 
+
+
+[570510639:/]
+admin = r
+570510639 = rw
+* = 
+
+
+[570510640:/]
+admin = r
+570510640 = rw
+* = 
+
+
+[570510641:/]
+admin = r
+570510641 = rw
+* = 
+
+
+[570510642:/]
+admin = r
+570510642 = rw
+* = 
+
+
+[570510643:/]
+admin = r
+570510643 = rw
+* = 
+
+
+[570510644:/]
+admin = r
+570510644 = rw
+* = 
+
+
+[570510646:/]
+admin = r
+570510646 = rw
+* = 
+
+
+[570510648:/]
+admin = r
+570510648 = rw
+* = 
+
+
+[570510649:/]
+admin = r
+570510649 = rw
+* = 
+
+
+[570510650:/]
+admin = r
+570510650 = rw
+* = 
+
+
+[570510651:/]
+admin = r
+570510651 = rw
+* = 
+
+
+[570510652:/]
+admin = r
+570510652 = rw
+* = 
+
+
+[570510654:/]
+admin = r
+570510654 = rw
+* = 
+
+
+[570510655:/]
+admin = r
+570510655 = rw
+* = 
+
+
+[570510656:/]
+admin = r
+570510656 = rw
+* = 
+
+
+[570510658:/]
+admin = r
+570510658 = rw
+* = 
+
+
+[570510659:/]
+admin = r
+570510659 = rw
+* = 
+
+
+[570510660:/]
+admin = r
+570510660 = rw
+* = 
+
+
+[570510661:/]
+admin = r
+570510661 = rw
+* = 
+
+
+[570510663:/]
+admin = r
+570510663 = rw
+* = 
+
+
+[570510664:/]
+admin = r
+570510664 = rw
+* = 
+
+
+[570510665:/]
+admin = r
+570510665 = rw
+* = 
+
+
+[570510667:/]
+admin = r
+570510667 = rw
+* = 
+
+
+[570510668:/]
+admin = r
+570510668 = rw
+* = 
+
+
+[570510669:/]
+admin = r
+570510669 = rw
+* = 
+
+
+[570510670:/]
+admin = r
+570510670 = rw
+* = 
+
+
+[570510672:/]
+admin = r
+570510672 = rw
+* = 
+
+
+[570510673:/]
+admin = r
+570510673 = rw
+* = 
+
+
+[570510674:/]
+admin = r
+570510674 = rw
+* = 
+
+
+[570510675:/]
+admin = r
+570510675 = rw
+* = 
+
+
+[570510676:/]
+admin = r
+570510676 = rw
+* = 
+
+
+[570510677:/]
+admin = r
+570510677 = rw
+* = 
+
+
+[570510678:/]
+admin = r
+570510678 = rw
+* = 
+
+
+[570510679:/]
+admin = r
+570510679 = rw
+* = 
+
+
+[570510680:/]
+admin = r
+570510680 = rw
+* = 
+
+
+[570510681:/]
+admin = r
+570510681 = rw
+* = 
+
+
+[570510682:/]
+admin = r
+570510682 = rw
+* = 
+
+
+[570510683:/]
+admin = r
+570510683 = rw
+* = 
+
+
+[570510684:/]
+admin = r
+570510684 = rw
+* = 
+
+
+[570510685:/]
+admin = r
+570510685 = rw
+* = 
+
+
+[570510686:/]
+admin = r
+570510686 = rw
+* = 
+
+
+[570510687:/]
+admin = r
+570510687 = rw
+* = 
+
+
+[570510688:/]
+admin = r
+570510688 = rw
+* = 
+
+
+[570510689:/]
+admin = r
+570510689 = rw
+* = 
+
+
+[570510690:/]
+admin = r
+570510690 = rw
+* = 
+
+
+[570510691:/]
+admin = r
+570510691 = rw
+* = 
+
+
+[570510692:/]
+admin = r
+570510692 = rw
+* = 
+
+
+[570510693:/]
+admin = r
+570510693 = rw
+* = 
+
+
+[570510694:/]
+admin = r
+570510694 = rw
+* = 
+
+
+[570510695:/]
+admin = r
+570510695 = rw
+* = 
+
+
+[570510696:/]
+admin = r
+570510696 = rw
+* = 
+
+
+[570510697:/]
+admin = r
+570510697 = rw
+* = 
+
+
+[570510698:/]
+admin = r
+570510698 = rw
+* = 
+
+
+[570510699:/]
+admin = r
+570510699 = rw
+* = 
+
+
+[570510700:/]
+admin = r
+570510700 = rw
+* = 
+
+
+[570510701:/]
+admin = r
+570510701 = rw
+* = 
+
+
+[570510702:/]
+admin = r
+570510702 = rw
+* = 
+
+
+[570510704:/]
+admin = r
+570510704 = rw
+* = 
+
+
+[570510705:/]
+admin = r
+570510705 = rw
+* = 
+
+
+[570510706:/]
+admin = r
+570510706 = rw
+* = 
+
+
+[570510707:/]
+admin = r
+570510707 = rw
+* = 
+
+
+[570510708:/]
+admin = r
+570510708 = rw
+* = 
+
+
+[570510709:/]
+admin = r
+570510709 = rw
+* = 
+
+
+[570510710:/]
+admin = r
+570510710 = rw
+* = 
+
+
+[570510711:/]
+admin = r
+570510711 = rw
+* = 
+
+
+[570510712:/]
+admin = r
+570510712 = rw
+* = 
+
+
+[570510713:/]
+admin = r
+570510713 = rw
+* = 
+
+
