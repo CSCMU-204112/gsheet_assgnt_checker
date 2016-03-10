@@ -30,13 +30,12 @@ def read_input():
         if i == 3:
             gSheetKey = nums[0]
         if i == 4:
+            credential_path = nums[0]
+        if i == 5:
             sheet_num = nums[0]
             start_fill_row = nums[1]
             try:
-                key_path = os.path.abspath("../private_scripts/credential/204scoresheet-541738831dfe.json")
-                print("key_path", key_path)
-                return 
-                json_key = json.load(open(key_path))
+                json_key = json.load(open(credential_path))
                 # open('/home/kittipitch/private_scripts/credential/204scoresheet-541738831dfe.json'))
                 scope = ['https://spreadsheets.google.com/feeds']
                 credentials = SignedJwtAssertionCredentials(
@@ -48,9 +47,9 @@ def read_input():
                 print("Cannot open the sheet with key specified ", gSheetKey,
                       " (probably an access right issue), breaking off")
                 break
-        if i == 5:
-            section = nums[0]
         if i == 6:
+            section = nums[0]
+        if i == 7:
             assgn = nums[0]
             fill_mode = nums[1]
             print(assgn)
@@ -70,7 +69,7 @@ def read_input():
                 print()
                 print(datetime.now(), course, section,
                       " - Problem with finding assignment ", assgn)
-        if i > 6:
+        if i > 7:
             fileName = nums[0]
             textFill = nums[1]
             if course == "204100":

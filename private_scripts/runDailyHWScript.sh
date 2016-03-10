@@ -22,6 +22,7 @@ workingDir=`realpath $workingDir`"/"
 mainScriptDir="../scripts/"
 mainScriptDir=`realpath $mainScriptDir`"/"
 
+credential="$workingDir""credential/204scoresheet-541738831dfe.json"
 #Then OK or LATE are marked to the following spreadsheet
 
 . "$mainScriptDir"fetch_sheet_vars.sh
