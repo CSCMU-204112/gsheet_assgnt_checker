@@ -1,0 +1,202 @@
+active (0|1|2)	sec (Sec001)	fileGlob	assgn(Lab01)	hwdirMain($HOME/homework/)	duedate (20140321)	acceptuntil (20140328)	mainScript	emailAdd	sheet# (0|1|2...)
+1	Sec001	Lab01_1_5????????.c	Lab01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab01_1_5????????.c	Lab01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	Lab01_1_5????????.c	Lab01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab01_2_5????????.c	Lab01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab01_2_5????????.c	Lab01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	Lab01_2_5????????.c	Lab01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW01_1_5????????.c	HW01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW01_1_5????????.c	HW01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	HW01_1_5????????.c	HW01_1	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW01_2_5????????.c	HW01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW01_2_5????????.c	HW01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	HW01_2_5????????.c	HW01_2	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW01_3_5????????.c	HW01_3	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW01_3_5????????.c	HW01_3	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	HW01_3_5????????.c	HW01_3	$HOME/homework/	20160113	20160115	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab02_1_5????????.c	Lab02_1	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab02_1_5????????.c	Lab02_1	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab02_1_5????????.c	Lab02_1	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab02_2_5????????.c	Lab02_2	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab02_2_5????????.c	Lab02_2	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	Lab02_2_5????????.c	Lab02_2	$HOME/homework/	20160114	20160117	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW02_1_5????????.c	HW02_1	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW02_1_5????????.c	HW02_1	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	HW02_1_5????????.c	HW02_1	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW02_2_5????????.c	HW02_2	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW02_2_5????????.c	HW02_2	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com, ratsameetip@gmail.com	0
+1	Sec003	HW02_2_5????????.c	HW02_2	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW02_3_5????????.c	HW02_3	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW02_3_5????????.c	HW02_3	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW02_3_5????????.c	HW02_3	$HOME/homework/	20160119	20160122	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab03_1_5????????.c	Lab03_1	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab03_1_5????????.c	Lab03_1	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab03_1_5????????.c	Lab03_1	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab03_2_5????????.c	Lab03_2	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab03_2_5????????.c	Lab03_2	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab03_2_5????????.c	Lab03_2	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab03_3_5????????.c	Lab03_3	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab03_3_5????????.c	Lab03_3	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab03_3_5????????.c	Lab03_3	$HOME/homework/	20160122	20160125	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW03_1_5????????.c	HW03_1	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW03_1_5????????.c	HW03_1	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW03_1_5????????.c	HW03_1	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW03_2_5????????.c	HW03_2	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW03_2_5????????.c	HW03_2	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW03_2_5????????.c	HW03_2	$HOME/homework/	20160126	20160129	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab04_1_5????????.c	Lab04_1	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab04_1_5????????.c	Lab04_1	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab04_1_5????????.c	Lab04_1	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab04_2_5????????.c	Lab04_2	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab04_2_5????????.c	Lab04_2	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab04_2_5????????.c	Lab04_2	$HOME/homework/	20160128	20160131	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW04_1_5????????.c	HW04_1	$HOME/homework/	20160202	20160205	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW04_1_5????????.c	HW04_1	$HOME/homework/	20160202	20160205	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW04_1_5????????.c	HW04_1	$HOME/homework/	20160202	20160205	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW04_2_5????????.c	HW04_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW04_2_5????????.c	HW04_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW04_2_5????????.c	HW04_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW04_3_5????????.c	HW04_3	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW04_3_5????????.c	HW04_3	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW04_3_5????????.c	HW04_3	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab05_1_5????????.pdf	Lab05_1	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab05_1_5????????.pdf	Lab05_1	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab05_1_5????????.pdf	Lab05_1	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab05_2_5????????.c	Lab05_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab05_2_5????????.c	Lab05_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab05_2_5????????.c	Lab05_2	$HOME/homework/	20160204	20160207	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW05_1_5????????.c	HW05_1	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW05_1_5????????.c	HW05_1	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW05_1_5????????.c	HW05_1	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW05_2_5????????.c	HW05_2	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW05_2_5????????.c	HW05_2	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW05_2_5????????.c	HW05_2	$HOME/homework/	20160210	20160213	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab06_1_5????????.pdf	Lab06_1	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab06_1_5????????.pdf	Lab06_1	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab06_1_5????????.pdf	Lab06_1	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab06_2_5????????.c	Lab06_2	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab06_2_5????????.c	Lab06_2	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab06_2_5????????.c	Lab06_2	$HOME/homework/	20160211	20160214	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW02_0_5????????.c	HW02_0	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	
+1	Sec002	HW02_0_5????????.c	HW02_0	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	
+1	Sec003	HW02_0_5????????.c	HW02_0	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	
+1	Sec001	HW06_1_5????????.c	HW06_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW06_1_5????????.c	HW06_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW06_1_5????????.c	HW06_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW06_2_5????????.c	HW06_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW06_2_5????????.c	HW06_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW06_2_5????????.c	HW06_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW06_3_5????????.c	HW06_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW06_3_5????????.c	HW06_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW06_3_5????????.c	HW06_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab07_1_5????????.pdf	Lab07_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab07_1_5????????.pdf	Lab07_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab07_1_5????????.pdf	Lab07_1	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab07_2_5????????.c	Lab07_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab07_2_5????????.c	Lab07_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab07_2_5????????.c	Lab07_2	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab07_3_5????????.c	Lab07_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab07_3_5????????.c	Lab07_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab07_3_5????????.c	Lab07_3	$HOME/homework/	20160218	20160221	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW07_1_5????????.c	HW07_1	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW07_1_5????????.c	HW07_1	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW07_1_5????????.c	HW07_1	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	HW07_2_5????????.c	HW07_2	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	HW07_2_5????????.c	HW07_2	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	HW07_2_5????????.c	HW07_2	$HOME/homework/	20160225	20160228	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec001	Lab08_2_5????????.c	Lab08_2	$HOME/homework/	20160310	20160313	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec002	Lab08_2_5????????.c	Lab08_2	$HOME/homework/	20160310	20160313	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+1	Sec003	Lab08_2_5????????.c	Lab08_2	$HOME/homework/	20160310	20160313	hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW08_1_5????????.c	HW08_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW08_1_5????????.c	HW08_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW08_1_5????????.c	HW08_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW08_2_5????????.c	HW08_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW08_2_5????????.c	HW08_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW08_2_5????????.c	HW08_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW08_3_5????????.c	HW08_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW08_3_5????????.c	HW08_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW08_3_5????????.c	HW08_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW08_EX_5????????.c	HW08_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW08_EX_5????????.c	HW08_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW08_EX_5????????.c	HW08_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab10_1_5????????.c	Lab10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab10_1_5????????.c	Lab10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab10_1_5????????.c	Lab10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab10_2_5????????.c	Lab10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab10_2_5????????.c	Lab10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab10_2_5????????.c	Lab10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW10_1_5????????.c	HW10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW10_1_5????????.c	HW10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW10_1_5????????.c	HW10_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW10_2_5????????.c	HW10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW10_2_5????????.c	HW10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW10_2_5????????.c	HW10_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW10_3_5????????.c	HW10_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW10_3_5????????.c	HW10_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW10_3_5????????.c	HW10_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab11_1_5????????.c	Lab11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab11_1_5????????.c	Lab11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab11_1_5????????.c	Lab11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab11_2_5????????.c	Lab11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab11_2_5????????.c	Lab11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab11_2_5????????.c	Lab11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW11_1_5????????.c	HW11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW11_1_5????????.c	HW11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW11_1_5????????.c	HW11_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW11_2_5????????.c	HW11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW11_2_5????????.c	HW11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW11_2_5????????.c	HW11_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW11_3_5????????.c	HW11_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW11_3_5????????.c	HW11_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW11_3_5????????.c	HW11_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW11_EX_5????????.c	HW11_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW11_EX_5????????.c	HW11_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW11_EX_5????????.c	HW11_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab12_1_5????????.c	Lab12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab12_1_5????????.c	Lab12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab12_1_5????????.c	Lab12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab12_2_5????????.c	Lab12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab12_2_5????????.c	Lab12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab12_2_5????????.c	Lab12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW12_1_5????????.c	HW12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW12_1_5????????.c	HW12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW12_1_5????????.c	HW12_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW12_2_5????????.c	HW12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW12_2_5????????.c	HW12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW12_2_5????????.c	HW12_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW12_3_5????????.c	HW12_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW12_3_5????????.c	HW12_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW12_3_5????????.c	HW12_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW12_EX_5????????.c	HW12_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW12_EX_5????????.c	HW12_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW12_EX_5????????.c	HW12_EX	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab13_1_5????????.c	Lab13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab13_1_5????????.c	Lab13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab13_1_5????????.c	Lab13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab13_2_5????????.c	Lab13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab13_2_5????????.c	Lab13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab13_2_5????????.c	Lab13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW13_1_5????????.c	HW13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW13_1_5????????.c	HW13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW13_1_5????????.c	HW13_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW13_2_5????????.c	HW13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW13_2_5????????.c	HW13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW13_2_5????????.c	HW13_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW13_3_5????????.c	HW13_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW13_3_5????????.c	HW13_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW13_3_5????????.c	HW13_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab14_1_5????????.c	Lab14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab14_1_5????????.c	Lab14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab14_1_5????????.c	Lab14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	Lab14_2_5????????.c	Lab14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	Lab14_2_5????????.c	Lab14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	Lab14_2_5????????.c	Lab14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW14_1_5????????.c	HW14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW14_1_5????????.c	HW14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW14_1_5????????.c	HW14_1	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW14_2_5????????.c	HW14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW14_2_5????????.c	HW14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW14_2_5????????.c	HW14_2	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec001	HW14_3_5????????.c	HW14_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec002	HW14_3_5????????.c	HW14_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0
+0	Sec003	HW14_3_5????????.c	HW14_3	$HOME/homework/			hwCronMain.sh	kittipitch+112hw@gmail.com	0

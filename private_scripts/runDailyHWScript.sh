@@ -17,10 +17,10 @@ hwdirMain="$HOME/homework/"
 hwdirMain=`eval echo $hwdirMain`
 
 workingDir="../private_scripts/"
-workingDir=`eval "echo $workingDir"`
+workingDir=`realpath $workingDir`"/"
 
 mainScriptDir="../scripts/"
-mainScriptDir=`eval "echo $mainScriptDir"`
+mainScriptDir=`realpath $mainScriptDir`"/"
 
 #Then OK or LATE are marked to the following spreadsheet
 

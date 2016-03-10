@@ -2,10 +2,13 @@
 # @Author: kk
 # @Date:   2015-12-17 16:16:38 
 # @Last Modified by:   Kitt K
-# @Last Modified time: 2016-03-10 22:37:08
+# @Last Modified time: 2016-03-10 23:52:58
 
-workingDir=`eval echo ../private_scripts/`
-mainScriptDir=`eval echo ../scripts/`
+workingDir="../private_scripts/"
+workingDir=`realpath $workingDir`"/"
+
+mainScriptDir="../scripts/"
+mainScriptDir=`realpath $mainScriptDir`"/"
 
 main_sheet_key="1gp83ev9ofy6FPLnBoN4W1wkrrnR2qyZXzY4Gu9LEZAQ"
 mainSheetURL="https://docs.google.com/spreadsheet/ccc?key="$main_sheet_key
