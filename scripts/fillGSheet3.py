@@ -33,9 +33,8 @@ def read_input():
             sheet_num = nums[0]
             start_fill_row = nums[1]
             try:
-				key_path = os.path.abspath("../private_scripts/credential/204scoresheet-541738831dfe.json")
-                json_key = json.load(
-                    open(key_path))
+                key_path = os.path.abspath("../private_scripts/credential/204scoresheet-541738831dfe.json")
+                json_key = json.load(open(key_path))
                 # open('/home/kittipitch/private_scripts/credential/204scoresheet-541738831dfe.json'))
                 scope = ['https://spreadsheets.google.com/feeds']
                 credentials = SignedJwtAssertionCredentials(
