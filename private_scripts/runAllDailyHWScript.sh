@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # @Author: kk
 # @Date:   2015-12-17 16:16:38 
-# @Last Modified by:   kk
-# @Last Modified time: 2015-12-17 17:32:58 
+# @Last Modified by:   Kitt K
+# @Last Modified time: 2016-03-10 22:37:08
 
-workingDir=~/private_scripts/
-mainScriptDir=~/scripts/
+workingDir=`eval echo ../private_scripts/`
+mainScriptDir=`eval echo ../scripts/`
 
 main_sheet_key="1gp83ev9ofy6FPLnBoN4W1wkrrnR2qyZXzY4Gu9LEZAQ"
 mainSheetURL="https://docs.google.com/spreadsheet/ccc?key="$main_sheet_key

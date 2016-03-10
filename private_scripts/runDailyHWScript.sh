@@ -15,8 +15,8 @@ main_sheet_key="1gp83ev9ofy6FPLnBoN4W1wkrrnR2qyZXzY4Gu9LEZAQ"
 
 hwdirMain="$HOME/homework/"
 hwdirMain=`eval echo $hwdirMain`
-workingDir=~/private_scripts/
-mainScriptDir=~/scripts/
+workingDir=`eval echo ../private_scripts/`
+mainScriptDir=`eval echo ../scripts/`
 
 #Then OK or LATE are marked to the following spreadsheet
 

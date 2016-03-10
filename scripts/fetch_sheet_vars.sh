@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # @Author: kk
 # @Date:   2015-12-17 16:16:38 
-# @Last Modified by:   kk
-# @Last Modified time: 2015-12-19 20:59:55 
+# @Last Modified by:   Kitt K
+# @Last Modified time: 2016-03-10 22:48:23
 
 
 if [[ ! -d "$hwdirMain" ]]; 

@@ -9,7 +9,7 @@ fi
 
 class="$1"
 hourlyScript="TRUE"
-workingDir=~/private_scripts/
+workingDir=`eval echo ../private_scripts/`
 
 . "$workingDir"runDailyHWScript.sh "$class"
 

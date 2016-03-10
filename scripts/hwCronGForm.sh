@@ -150,7 +150,7 @@ echo "output file done for $sec - $assgn"
 if [ $yesterday == $duedate ]  
 then
     echo "yesterday was the due date"
-    if [[ ($emailAdd != "")  && (-e /usr/bin/mail) ]];
+    if [[ (($emailAdd != "")  && (-e /usr/bin/mail)) || ($active -eq 2) ]];
     then
         cat $sec$assgn"_GF_today.txt" | mail -s $class:$sec$assgn": timestamp on duedate of docx file" -a "$outFile" $emailAdd
     fi
