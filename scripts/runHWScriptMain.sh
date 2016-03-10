@@ -3,7 +3,9 @@
 #spreadsheetURL="https://docs.google.com/spreadsheet/ccc?key=0AvEPxHyPxVotdGRnQlRVVk1XT1FiYnQyQTlqdkw3aFE"
 #workingDir="~/dir"
 
-logFile="gsheet.log"
+logFile="$HOME/gsheet.log"
+logFile=`eval echo $logFile`
+
 txtFileName=$workingDir"csv_"$class".tsv"
 
 
