@@ -27,10 +27,10 @@ def read_input():
             date = nums[0]
         if i == 2:
             course = nums[0]
-        if i == 3:
-            gSheetKey = nums[0]
         if i == 4:
             credential_path = nums[0]
+        if i == 3:
+            gSheetKey = nums[0]
         if i == 5:
             sheet_num = nums[0]
             start_fill_row = nums[1]
