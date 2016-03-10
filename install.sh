@@ -9,6 +9,7 @@ sudo apt-get install python3
 sudo apt-get install python3-pip
 sudo pip3 install virtualenv
 virtualenv ./scripts/gfill
-./scripts/gfill/bin/pip3 install -r REQUIREMENTS.txt
+./scripts/gfill/bin/pip3 install -r ./scripts/REQUIREMENTS.txt
+
 
 
