@@ -75,8 +75,8 @@ secString=$sec"/"
 
 echo $yesterday > $outFile
 echo $class$classSuffix >> $outFile
-varname=gsheet_$sec
 echo $credential >> $outFile
+varname=gsheet_$sec
 echo "${!varname}" >> $outFile
 echo "$sheet_num" "$start_fill_row" >> $outFile
 echo $sec >> $outFile
