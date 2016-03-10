@@ -112,8 +112,8 @@ do
 done < $sec$assgn"_diff.txt"
 echo "output file done for $sec - $assgn"
 # END prepare file to fill the gsheet
-# cat "$outFile"
-
+#cat "$outFile"
+#exit
 
 # if yesterday was the due date, email the whole time stamp
 if [ $yesterday == $duedate ]  
