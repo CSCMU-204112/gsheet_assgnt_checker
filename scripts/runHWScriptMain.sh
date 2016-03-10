@@ -5,8 +5,8 @@
 
 logFile="gsheet.log"
 txtFileName=$workingDir"csv_"$class".tsv"
-echo "$txtFileName"
-exit
+
+
 ftpDataFile=$workingDir"ftpData/ftp"$class".sh"
 . $ftpDataFile
 
@@ -31,7 +31,6 @@ echo "getting files from ftp"
 #echo "ncftpget -R -T -p $ftpPasswd ftp://$ftpUser:@$ftpHost/"
 #ncftpget -R -T -p $ftpPasswd ftp://$ftpUser:@$ftpHost/
 #echo wget --quiet  -N -S -r -nH --ftp-password="$ftpPasswd"  --ftp-user="$ftpUser" ftp://"$ftpHost"
-
 wget --quiet  -N -S -r -nH --ftp-password="$ftpPasswd"  --ftp-user="$ftpUser" ftp://"$ftpHost" > /dev/null 2>&1
 echo "FTP done"
 
@@ -42,6 +41,7 @@ yesterday=`date -d "-1 days" +%Y%m%d`
 echo "getting deadline sheet"
 spreadsheetURL="https://docs.google.com/spreadsheet/ccc?key="$deadline_sheet_key"&gid="$gid
 wget  --quiet --no-check-certificate --output-document=$txtFileName $spreadsheetURL"&output="$inputType
+echo "wget  --quiet --no-check-certificate --output-document=$txtFileName $spreadsheetURL"&output="$inputType"
 
 # check the last HW first
 
