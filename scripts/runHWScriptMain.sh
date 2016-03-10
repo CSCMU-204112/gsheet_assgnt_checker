@@ -5,6 +5,8 @@
 
 logFile="gsheet.log"
 txtFileName=$workingDir"csv_"$class".tsv"
+echo "$txtFileName"
+exit
 ftpDataFile=$workingDir"ftpData/ftp"$class".sh"
 . $ftpDataFile
 
