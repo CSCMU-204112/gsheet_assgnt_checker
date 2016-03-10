@@ -16,11 +16,12 @@ main_sheet_key="1gp83ev9ofy6FPLnBoN4W1wkrrnR2qyZXzY4Gu9LEZAQ"
 hwdirMain="$HOME/homework/"
 hwdirMain=`eval echo $hwdirMain`
 
-workingDir="../private_scripts/"
-workingDir=`realpath $workingDir`"/"
+workingDir="$HOME/gsheet_assgnt_checker/private_scripts/"
+workingDir=`eval echo $workingDir`
 
-mainScriptDir="../scripts/"
-mainScriptDir=`realpath $mainScriptDir`"/"
+mainScriptDir="$HOME/gsheet_assgnt_checker/scripts/"
+mainScriptDir=`eval echo $mainScriptDir`
+
 
 credential="$workingDir""credential/204scoresheet-541738831dfe.json"
 #Then OK or LATE are marked to the following spreadsheet

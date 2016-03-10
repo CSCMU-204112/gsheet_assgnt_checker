@@ -2,13 +2,13 @@
 # @Author: kk
 # @Date:   2015-12-17 16:16:38 
 # @Last Modified by:   Kitt K
-# @Last Modified time: 2016-03-10 23:52:58
+# @Last Modified time: 2016-03-11 00:54:33
 
-workingDir="../private_scripts/"
-workingDir=`realpath $workingDir`"/"
+workingDir="$HOME/gsheet_assgnt_checker/private_scripts/"
+workingDir=`eval echo $workingDir`
 
-mainScriptDir="../scripts/"
-mainScriptDir=`realpath $mainScriptDir`"/"
+mainScriptDir="$HOME/gsheet_assgnt_checker/scripts/"
+mainScriptDir=`eval echo $mainScriptDir`
 
 main_sheet_key="1gp83ev9ofy6FPLnBoN4W1wkrrnR2qyZXzY4Gu9LEZAQ"
 mainSheetURL="https://docs.google.com/spreadsheet/ccc?key="$main_sheet_key

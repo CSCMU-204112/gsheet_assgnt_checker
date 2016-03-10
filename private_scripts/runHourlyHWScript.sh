@@ -9,8 +9,9 @@ fi
 
 class="$1"
 hourlyScript="TRUE"
-workingDir="../private_scripts/"
-workingDir=`realpath $workingDir`"/"
+
+workingDir="$HOME/gsheet_assgnt_checker/private_scripts/"
+workingDir=`eval echo $workingDir`
 
 . "$workingDir"runDailyHWScript.sh "$class"
 
