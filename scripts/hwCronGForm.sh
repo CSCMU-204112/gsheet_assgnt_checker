@@ -142,7 +142,7 @@ do
 
     echo -e "$file_name" "$textFillEach" "$handin_date" >> "$outFile"
 
-done < $sec$assgn"_diff.txt"
+done < $sec$assgn"_GF_diff.txt"
 echo "output file done for $sec - $assgn"
 # END prepare file to fill the gsheet
 
