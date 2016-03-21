@@ -63,7 +63,7 @@ mv $sec$assgn"_today.txt" $sec$assgn"_yesterday.txt"
 #list the file today w/ time stamp
 ls -al --time-style=+'%Y%m%d %H:%M' $sec/*/$fileGlob | sed "s/^ *//;s/ *$//;s/ \{1,\}/ /g" | cut -d' ' -f6-9 > $hwdir/$sec$assgn"_today.txt"
 
-if [[ $active -eq 2 ]]
+if [[ ($active -eq 2) || ($yesterday -eq $acceptUnTil) ]];
 then
     rm $sec$assgn"_yesterday.txt"
     touch $sec$assgn"_yesterday.txt"
