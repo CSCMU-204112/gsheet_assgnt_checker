@@ -94,7 +94,7 @@ done
 
 cd $hwdir
 
-if [[ $active -eq 2 ]]
+if [[ ($active -eq 2) || ($yesterday -eq $acceptUnTil) ]];
 then
     rm $sec$assgn"_GF_yesterday.txt"
     touch $sec$assgn"_GF_yesterday.txt"
