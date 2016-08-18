@@ -50,3 +50,5 @@ do
     ((lineCount++))
 done < "$mainTxtFileName"
 rm "$mainTxtFileName"
+
+
