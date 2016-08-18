@@ -64,11 +64,11 @@ def read_input():
                 colStart = worksheet.get_addr_int(start_fill_row, assgnCol)
                 colEnd = worksheet.get_addr_int(row_count, assgnCol)
 
-                print("colStart =", colStart)
-                print("colEnd =", colEnd)
+#                print("colStart =", colStart)
+#                print("colEnd =", colEnd)
                 assgnColCells = worksheet.range(colStart + ':' + colEnd)
-                print("filling range", colStart + ':' + colEnd)
-                print("col = ", assgnCol)
+#                print("filling range", colStart + ':' + colEnd)
+#                print("col = ", assgnCol)
 
             except:
                 print()
@@ -81,9 +81,9 @@ def read_input():
                 stuId = fileName.split("_")[0][-9:]
             else:
                 stuId = fileName.split(".")[0][-9:]
-            print("|"+stuId+"|")
+#            print("|"+stuId+"|")
             id_fill[stuId] = textFill
-            print(type(stuId))
+#            print(type(stuId))
 
     try:
 
@@ -103,13 +103,13 @@ def read_input():
 
             if fill_mode == "RECHECK" and len(stuId) == 9 and stuId.isdigit():
                 assgnColCells[i].value = ""
-                print("erasing", stuId)
+#                print("erasing", stuId)
 
             if textFill is not None:
                 assgnColCells[i].value = textFill
-                print("filling", stuId, "with", textFill)
+#                print("filling", stuId, "with", textFill)
 
-        print("col = ", assgnCol," row = ",row)
+#        print("col = ", assgnCol," row = ",row)
         worksheet.update_cells(assgnColCells)
     except:
         print(datetime.now(), course, section, assgn,

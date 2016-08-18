@@ -38,7 +38,7 @@ def mark_inactive():
             try:
                 activeTitleCell = worksheet.find('active')
                 activeCol = activeTitleCell.col
-                print("col = ", activeCol)
+#                print("col = ", activeCol)
             except:
                 print("Problem with finding active column ")
                 break
@@ -50,7 +50,7 @@ def mark_inactive():
             print("stuId:", stuId)
             try:
                 row = worksheet.find(stuId).row
-                print("col = ", activeCol," row = ", row)
+#                print("col = ", activeCol," row = ", row)
                 worksheet.update_cell(row, activeCol, 0)
             except:
                 print("Cannot find student with the ID ", stuId)
