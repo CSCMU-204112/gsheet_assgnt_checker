@@ -2,10 +2,15 @@
 #import gdata.docs.service
 import sys
 import json
-import gspread
 import os
-from oauth2client.client import SignedJwtAssertionCredentials
+import gspread
+
+#from oauth2client.client import SignedJwtAssertionCredentials
+from oauth2client.service_account import ServiceAccountCredentials
+
 from datetime import datetime
+
+
 
 # visit https://gspread.readthedocs.org/en/latest/ for more details on gspread
 # print r
@@ -35,11 +40,9 @@ def read_input():
             sheet_num = nums[0]
             start_fill_row = nums[1]
             try:
-                json_key = json.load(open(credential_path))
-                # open('/home/kittipitch/private_scripts/credential/204scoresheet-541738831dfe.json'))
                 scope = ['https://spreadsheets.google.com/feeds']
-                credentials = SignedJwtAssertionCredentials(
-                    json_key['client_email'], bytes(json_key['private_key'], 'utf-8'), scope)
+                credentials = ServiceAccountCredentials.from_json_keyfile_name('/home/gadmin/gsheet_assgnt_checker/private_scripts/credential/scoreSheet-36e22a114d57.json', scope)
+
                 gc = gspread.authorize(credentials)
                 wb = gc.open_by_key(gSheetKey)
                 worksheet = wb.get_worksheet(int(sheet_num))
@@ -60,11 +63,13 @@ def read_input():
                 row_count = worksheet.row_count
                 colStart = worksheet.get_addr_int(start_fill_row, assgnCol)
                 colEnd = worksheet.get_addr_int(row_count, assgnCol)
-                #print("colStart =", colStart)
-                #print("colEnd =", colEnd)
+
+                print("colStart =", colStart)
+                print("colEnd =", colEnd)
                 assgnColCells = worksheet.range(colStart + ':' + colEnd)
                 print("filling range", colStart + ':' + colEnd)
-                #print("col = ", assgnCol)
+                print("col = ", assgnCol)
+
             except:
                 print()
                 print(datetime.now(), course, section,
@@ -76,9 +81,9 @@ def read_input():
                 stuId = fileName.split("_")[0][-9:]
             else:
                 stuId = fileName.split(".")[0][-9:]
-            # print "|"+stuId+"|"
+            print("|"+stuId+"|")
             id_fill[stuId] = textFill
-            # print type(stuId)
+            print(type(stuId))
 
     try:
 
@@ -98,13 +103,13 @@ def read_input():
 
             if fill_mode == "RECHECK" and len(stuId) == 9 and stuId.isdigit():
                 assgnColCells[i].value = ""
-                #print("erasing", stuId)
+                print("erasing", stuId)
 
             if textFill is not None:
                 assgnColCells[i].value = textFill
-                #print("filling", stuId, "with", textFill)
+                print("filling", stuId, "with", textFill)
 
-        # print "col = ", assgnCol," row = ",row
+        print("col = ", assgnCol," row = ",row)
         worksheet.update_cells(assgnColCells)
     except:
         print(datetime.now(), course, section, assgn,

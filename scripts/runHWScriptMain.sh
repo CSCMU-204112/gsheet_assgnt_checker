@@ -23,7 +23,7 @@ hwdir=$hwdirMain$class
 
 if [ ! -d $hwdir ]; then
     mkdir $hwdir
-    chmod +rwx "$hwdir"      
+    chmod +rwx "$hwdir"
 fi
 
 cd $hwdir
@@ -33,7 +33,9 @@ echo "getting files from ftp"
 #echo "ncftpget -R -T -p $ftpPasswd ftp://$ftpUser:@$ftpHost/"
 #ncftpget -R -T -p $ftpPasswd ftp://$ftpUser:@$ftpHost/
 #echo wget --quiet  -N -S -r -nH --ftp-password="$ftpPasswd"  --ftp-user="$ftpUser" ftp://"$ftpHost"
+#exit
 wget --quiet  -N -S -r -nH --ftp-password="$ftpPasswd"  --ftp-user="$ftpUser" ftp://"$ftpHost" > /dev/null 2>&1
+#wget  -N -S -r -nH --ftp-password="$ftpPasswd"  --ftp-user="$ftpUser" ftp://"$ftpHost"
 echo "FTP done"
 
 
@@ -43,7 +45,7 @@ yesterday=`date -d "-1 days" +%Y%m%d`
 echo "getting deadline sheet"
 spreadsheetURL="https://docs.google.com/spreadsheet/ccc?key="$deadline_sheet_key"&gid="$gid
 wget  --quiet --no-check-certificate --output-document=$txtFileName $spreadsheetURL"&output="$inputType
-echo "wget  --quiet --no-check-certificate --output-document=$txtFileName $spreadsheetURL"&output="$inputType"
+#echo "wget  --quiet --no-check-certificate --output-document=$txtFileName $spreadsheetURL"&output="$inputType"
 
 # check the last HW first
 
@@ -87,14 +89,14 @@ do
 		if [ \( $yesterday -lt $duedate \) -o \( "$hourlyScript" != "TRUE" \) -o \( "$active" -eq 2 \) ]
 		then
 			. $ftpDataFile
-			. $mainScript			
+			. $mainScript
 		else
 			echo "passed soft duedate"
 		fi
 
 	else
 		echo "row $lineCount inactive"
-	fi	
+	fi
 	((lineCount--))
 done < $txtFileName 
 rm $txtFileName
