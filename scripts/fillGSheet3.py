@@ -5,11 +5,9 @@ import json
 import os
 import gspread
 
-#from oauth2client.client import SignedJwtAssertionCredentials
 from oauth2client.service_account import ServiceAccountCredentials
 
 from datetime import datetime
-
 
 
 # visit https://gspread.readthedocs.org/en/latest/ for more details on gspread
@@ -41,11 +39,12 @@ def read_input():
             start_fill_row = nums[1]
             try:
                 scope = ['https://spreadsheets.google.com/feeds']
-                credentials = ServiceAccountCredentials.from_json_keyfile_name('/home/gadmin/gsheet_assgnt_checker/private_scripts/credential/scoreSheet-36e22a114d57.json', scope)
-
+#                credentials = ServiceAccountCredentials.from_json_keyfile_name('/home/gadmin/gsheet_assgnt_checker/private_scripts/credential/scoreSheet-36e22a114d57.json', scope)
+                credentials = ServiceAccountCredentials.from_json_keyfile_name(credential_path, scope)
                 gc = gspread.authorize(credentials)
                 wb = gc.open_by_key(gSheetKey)
                 worksheet = wb.get_worksheet(int(sheet_num))
+
             except:
                 print("Cannot open the sheet with key specified ", gSheetKey,
                       " (probably an access right issue), breaking off")

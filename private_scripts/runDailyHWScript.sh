@@ -23,7 +23,12 @@ mainScriptDir="$HOME/gsheet_assgnt_checker/scripts/"
 mainScriptDir=`eval echo $mainScriptDir`
 
 
-credential="$workingDir""credential/204scoresheet-541738831dfe.json"
+credential="$workingDir""../../credential/scoreSheet-36e22a114d57.json"
+credential=$(readlink -f $credential)
+
+echo  $credential
+#exit
+
 #Then OK or LATE are marked to the following spreadsheet
 
 . "$mainScriptDir"fetch_sheet_vars.sh
