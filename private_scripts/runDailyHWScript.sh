@@ -24,7 +24,7 @@ mainScriptDir=`eval echo $mainScriptDir`
 
 
 credential="$workingDir""../../credential/scoreSheet-36e22a114d57.json"
-credential=$(readlink -f "$credential")
+credential=$(/bin/readlink -f "$credential")
 
 echo  $credential
 #exit
